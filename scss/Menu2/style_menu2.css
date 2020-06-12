@@ -16,6 +16,10 @@ h1 {
   -webkit-text-fill-color: transparent;
 }
 
+h2 {
+  font-size: 25px;
+}
+
 .entree {
   color: #c47335;
   display: -webkit-box;
@@ -28,6 +32,9 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 80%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .suite_group {
@@ -42,12 +49,14 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 80%;
 }
 
 .dessert {
   color: #7161ef;
   padding-bottom: 200px;
   padding-left: 0px;
+  width: 100%;
 }
 
 .dessert_group {
@@ -68,6 +77,9 @@ h1 {
 @media (min-width: 1200px) {
   .choice_dessert {
     margin-left: 0px;
+  }
+  .group {
+    padding-bottom: 90px;
   }
 }
 /*# sourceMappingURL=style_menu2.css.map */

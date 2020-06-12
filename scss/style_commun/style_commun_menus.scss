@@ -109,7 +109,7 @@ animation: souligne 5000ms infinite;
 .price
 {
 	font-weight: bold;
-	text-align: center;
+	text-align: right;
 	width: 20%;
 }
 
@@ -154,8 +154,8 @@ animation: souligne 5000ms infinite;
 
 	.group
 	{
-		margin-left: 200px;
-		margin-right: 200px;
+		margin-left: 10%;
+		margin-right: 10%;
 		font-size: 50px;
 		padding-bottom: 90px;
 	}
@@ -167,10 +167,39 @@ animation: souligne 5000ms infinite;
 		padding-bottom: 30px;
 	}
 	h2
-	{font-size: 60px;}
+	{
+		font-size: 50px;
+	}
 
 	section
 {
 	padding-top : 50px;
+}
+
+.bordure_gauche
+{
+	padding-top: 40px;
+	flex:1;
+	height: 50px;
+}
+
+.bordure_droite
+{
+	padding-top: 40px;
+	flex:1;
+	height: 50px;
+}
+
+.partie
+{
+	margin-left : auto; 
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid;
+	width: 80%;
+	h2 {width: 350px}
+	
 }
 }

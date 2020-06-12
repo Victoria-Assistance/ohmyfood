@@ -48,6 +48,17 @@ h1 {
   color: #72ddf7;
   padding-bottom: 200px;
   padding-left: 0px;
+  width: 100%;
+}
+
+.dessert {
+  color: #7161ef;
+  padding-bottom: 200px;
+  padding-left: 0px;
+  width: 100%;
+}
+
+.dessert_group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
