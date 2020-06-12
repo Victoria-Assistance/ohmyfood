@@ -1,0 +1,44 @@
+@font-face
+{
+	font-family:'journal';
+	src: url('font/journal-webfont.woff') format('woff'),
+		url('font/journal-webfont.eot') format('embedded-opentype'),
+		url('font/journal-webfont.svg') format('svg'),
+		url('font/journal-webfont.ttf') format('truetype');
+}
+
+.containt
+{
+	font-family:'journal';
+}
+
+.entree_group
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.suite_group
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+.dessert
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+@media (min-width: 768px) and (max-width: 1200px)
+{
+}
+
+/* Nouvelles règles si la fenêtre fait plus de 992px*/
+@media (min-width: 1200px)
+{
+}

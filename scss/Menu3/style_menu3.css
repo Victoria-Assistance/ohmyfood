@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'alexbrush';
+  src: url("font/alexbrush-regular-webfont.woff") format("woff"), url("font/alexbrush-regular-webfont.eot") format("embedded-opentype"), url("font/alexbrush-regular-webfont.svg") format("svg"), url("font/Alexbrush-Regular.ttf") format("truetype");
+}
+
+.containt {
+  font-family: 'alexbrush';
+  background-color: #EDEFEF;
+}
+
+h1 {
+  background-image: -webkit-gradient(linear, left top, right top, from(#072ac8), to(#72ddf7));
+  background-image: linear-gradient(left, #072ac8, #72ddf7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.entree_group {
+  border-left: solid 1px grey;
+  color: #072ac8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.suite_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dessert {
+  color: #72ddf7;
+  padding-bottom: 200px;
+  padding-left: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+/* Nouvelles règles si la fenêtre fait plus de 992px*/
+@media (min-width: 1200px) {
+  .group {
+    padding-bottom: 90px;
+  }
+  .choice_dessert {
+    margin-left: 0px;
+  }
+}
+/*# sourceMappingURL=style_menu3.css.map */

@@ -1,0 +1,52 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'journal';
+  src: url("font/journal-webfont.woff") format("woff"), url("font/journal-webfont.eot") format("embedded-opentype"), url("font/journal-webfont.svg") format("svg"), url("font/journal-webfont.ttf") format("truetype");
+}
+
+.containt {
+  font-family: 'journal';
+}
+
+.entree_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.suite_group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dessert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+/* Nouvelles règles si la fenêtre fait plus de 992px*/
+/*# sourceMappingURL=style_menu4.css.map */
