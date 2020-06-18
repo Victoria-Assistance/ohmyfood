@@ -10,20 +10,54 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100px;
-  padding-top: 60px;
+  height: 70px;
+  width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-bottom: 1px solid green;
-  font-size: 50px;
+  font-size: 30px;
   font-weight: bold;
+}
+
+section {
+  -webkit-box-shadow: 1px 1px 6px 1px grey;
+          box-shadow: 1px 1px 6px 1px grey;
+  margin: 5%;
+}
+
+body {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+
+h2:hover {
+  background-size: 100% 100%;
 }
 
 .menu {
@@ -36,43 +70,36 @@ header {
   padding: 20px;
 }
 
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+  padding-top: 50px;
+}
+
 footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 20px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-top: 1px solid green;
   font-size: 18px;
+  height: 70px;
 }
 
-body {
-  margin: 0px;
-}
-
-.conteneur {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.bas {
+.low {
   position: fixed;
   bottom: 0px;
   width: 100%;
 }
 
 .frame {
-  background-color: #6C9A8B;
+  background-color: #579c87;
   color: #FDD144;
 }
 
@@ -80,66 +107,15 @@ body {
   color: #FDD144;
 }
 
-.bordure {
+.border {
   padding-top: 60px;
 }
 
 h1 {
   text-align: center;
-  font-size: 35px;
+  font-size: 30px;
   padding-top: 10px;
   text-decoration: underline;
-}
-
-h1 :hover {
-  -webkit-animation: souligne 500ms infinite;
-          animation: souligne 500ms infinite;
-}
-
-@-webkit-keyframes souligne {
-  0% {
-    -webkit-transform: scale(left 0);
-            transform: scale(left 0);
-  }
-  25% {
-    -webkit-transform: scale(left 0.2);
-            transform: scale(left 0.2);
-  }
-  50% {
-    -webkit-transform: scale(left 0.3);
-            transform: scale(left 0.3);
-  }
-  75% {
-    -webkit-transform: scale(left 0.4);
-            transform: scale(left 0.4);
-  }
-  100% {
-    -webkit-transform: scale(left 0.5);
-            transform: scale(left 0.5);
-  }
-}
-
-@keyframes souligne {
-  0% {
-    -webkit-transform: scale(left 0);
-            transform: scale(left 0);
-  }
-  25% {
-    -webkit-transform: scale(left 0.2);
-            transform: scale(left 0.2);
-  }
-  50% {
-    -webkit-transform: scale(left 0.3);
-            transform: scale(left 0.3);
-  }
-  75% {
-    -webkit-transform: scale(left 0.4);
-            transform: scale(left 0.4);
-  }
-  100% {
-    -webkit-transform: scale(left 0.5);
-            transform: scale(left 0.5);
-  }
 }
 
 .choice {
@@ -150,24 +126,18 @@ h1 :hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   padding-bottom: 10px;
-}
-
-.containt {
-  -webkit-box-shadow: 1px 1px 6px 1px grey;
-          box-shadow: 1px 1px 6px 1px grey;
 }
 
 .price {
   font-weight: bold;
-  text-align: right;
+  text-align: center;
   width: 20%;
 }
 
-.plat {
+.dish {
   margin-right: 20px;
   margin-left: 20px;
   width: 80%;
@@ -229,9 +199,54 @@ h1 :hover {
   padding-left: 0px;
 }
 
+.part {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 95%;
+}
+
+.part h2 {
+  width: 500px;
+}
+
+.border {
+  padding-top: 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 10px;
+}
+
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+@media (min-width: 768px) and (max-width: 1200px) {
+  .group {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .price {
+    width: 8%;
+    text-align: center;
+  }
+  .dish {
+    width: 52%;
+    text-align: justify;
+  }
+}
+
 /* Nouvelles règles si la fenêtre fait plus de 992px*/
 @media (min-width: 1200px) {
+  .low {
+    width: 100%;
+  }
   .group_choice {
     margin-left: 200px;
     margin-right: 200px;
@@ -239,15 +254,13 @@ h1 :hover {
     font-size: 50px;
   }
   .group {
-    margin-left: 10%;
-    margin-right: 10%;
     font-size: 50px;
     padding-bottom: 90px;
   }
   .group_dessert {
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 200px;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-bottom: 20%;
     font-size: 50px;
   }
   h1 {
@@ -257,40 +270,30 @@ h1 :hover {
   h2 {
     font-size: 50px;
   }
+  .border {
+    height: 50px;
+  }
+  header {
+    font-size: 90px;
+    height: 150px;
+  }
   section {
-    padding-top: 50px;
+    margin: 10%;
+    margin-top: 2%;
   }
-  .bordure_gauche {
-    padding-top: 15px;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    height: 50px;
+  .price {
+    text-align: right;
+    padding-right: 20px;
   }
-  .bordure_droite {
-    padding-top: 15px;
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    height: 50px;
+  .title {
+    font-size: 70px;
+    padding-top: 10%;
   }
-  .partie {
-    margin-left: auto;
-    margin-right: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border: 1px solid;
-    width: 85%;
+  body {
+    margin: 0px;
   }
-  .partie h2 {
-    width: 550px;
+  .mentions_contact {
+    font-size: 30px;
   }
 }
 /*# sourceMappingURL=style_commun_menus.css.map */

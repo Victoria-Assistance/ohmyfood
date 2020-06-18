@@ -1,16 +1,25 @@
-@font-face
+@font-face {
+	font-family: 'journal';
+	src: url("../../polices/journal-webfont.woff") format("woff"), 
+		url("../../polices/journal-webfont.eot") format("embedded-opentype"), 
+		url("../../polices/journal-webfont.svg") format("svg"), 
+		url("../../polices/journal-webfont.ttf") format("truetype");
+  }
+
+h1
 {
-	font-family:'journal';
-	src: url('font/journal-webfont.woff') format('woff'),
-		url('font/journal-webfont.eot') format('embedded-opentype'),
-		url('font/journal-webfont.svg') format('svg'),
-		url('font/journal-webfont.ttf') format('truetype');
+	padding-top: 10%;
+background-image: -webkit-linear-gradient(left, #1a4301, #72b01d, #d0ffb7);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
-.containt
+section
 {
-	font-family:'journal';
+font-family: 'journal';
 }
+
+
 
 .entree_group
 {
@@ -34,4 +43,26 @@
 /* Nouvelles règles si la fenêtre fait plus de 992px*/
 @media (min-width: 1200px)
 {
+	.part
+	{
+		margin-left: 4%;
+		margin-right: 4%;
+		width: 92%;
+		h2 {width: 610px}
+	}
+
+	.group
+	{
+		padding-top: 2%;
+		padding-bottom: 90px;
+		margin-left:17%;
+		margin-right: 17%;
+	}
+
+	.group_dessert
+{
+	padding-top: 2%;
+	margin-left:17%;
+	margin-right: 17%;
+}
 }

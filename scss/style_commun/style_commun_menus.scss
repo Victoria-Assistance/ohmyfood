@@ -3,19 +3,54 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 }
+
+$color_text_header_footer: #FDD144;
 
 
 header
 {
 	display: flex;
-	height: 100px;
-	padding-top:60px;
+	height: 70px;
+	width: 100%;
 	justify-content: center;
+	align-items: center;
 	border-bottom: 1px solid green;
-	font-size: 50px;
+	font-size: 30px;
 	font-weight: bold;
 }
+
+section
+{
+	box-shadow: 1px 1px 6px 1px grey;
+	margin: 5%;
+}
+
+body
+{
+	margin: 0px;
+}
+
+a {
+	text-decoration: none;
+  }
+  
+h2
+{
+	font-size:20px;
+	text-align: center;
+	text-decoration: none;
+	background : linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size 300ms;
+}
+
+h2:hover
+{
+background-size: 100% 100%;
+}
+
 
 .menu
 {
@@ -24,28 +59,26 @@ header
 	padding: 20px;
 }
 
+.title
+{text-align: center;
+font-size: 20px;
+font-weight: bold;
+margin: 0px;
+padding-top: 50px;
+}
+
 footer
 {
 	display: flex;
-	justify-content: space-between;
-	padding: 20px;
+	justify-content: space-around;
+	align-items: center;
 	border-top: 1px solid green;
 	font-size:18px;
+	height: 70px;
 }
 
-body
-{
-	margin: 0px;
-}
 
-.conteneur
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
-.bas
+.low
 {
 	position: fixed;
 	bottom: 0px;
@@ -54,16 +87,17 @@ body
 
 .frame
 {
-	background-color: #6C9A8B;
-	color: #FDD144;
+	background-color: #579c87;
+	color: $color_text_header_footer;
 }
 
 .link
 {
-	color: #FDD144;
+	color:$color_text_header_footer;
+
 }
 
-.bordure
+.border
 {
 	padding-top: 60px;
 }
@@ -71,49 +105,35 @@ body
 h1
 {
 	text-align: center;
-	font-size: 35px;
+	font-size: 30px;
 	padding-top: 10px;
 	text-decoration: underline;
-	:hover {
-	animation: souligne 500ms infinite;
 }
-}
-
-	@keyframes souligne {
-	 	0% {transform: scale(left 0)}
-	  	25% {transform: scale(left 0.2)}
-		50% {transform: scale(left 0.3)}
-		75% {transform: scale(left 0.4)}
-	  	100%{transform: scale(left 0.5)}
-	  }
 
 
 .choice
 {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	padding-bottom: 10px;
 }
 
-.containt
-{
-	box-shadow: 1px 1px 6px 1px grey;
-}
 
 .price
 {
 	font-weight: bold;
-	text-align: right;
+	text-align: center;
 	width: 20%;
 }
 
-.plat
+.dish
 {
 	margin-right: 20px;
 	margin-left: 20px;
 	width: 80%;
 }
+
 
 .mentions_contact
 {
@@ -132,18 +152,57 @@ h1
  .group_dessert 
   {
 	padding-bottom: 200px;
-	 padding-left: 0px;
+	padding-left: 0px;
   }
+
+  .part
+{
+	margin-left : auto; 
+	margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 95%;
+	h2 {width: 500px}
+}
+
+.border
+{
+	padding-top: 15px;
+	flex:1;
+	height: 10px;
+}
 
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px)
 {
+.group
+{
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-/* Nouvelles règles si la fenêtre fait plus de 992px*/
+.price
+{
+	width:8%;
+	text-align: center;
+}
+
+.dish
+{
+	width: 52%;
+	text-align: justify;
+}
+}
+
+/* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px)
 {
 
+	.low
+	{
+		width: 100%
+	}
 	.group_choice
 	{
 		margin-left: 200px;
@@ -154,17 +213,15 @@ h1
 
 	.group
 	{
-		margin-left: 10%;
-		margin-right: 10%;
 		font-size: 50px;
 		padding-bottom: 90px;
 	}
 
 	.group_dessert
 {
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-bottom: 200px;
+	margin-left: 12%;
+	margin-right: 12%;
+	padding-bottom: 20%;
 	font-size: 50px;
 }
 
@@ -178,35 +235,43 @@ h1
 		font-size: 50px;
 	}
 
-	section
-{
-	padding-top : 50px;
-}
 
-.bordure_gauche
+.border
 {
-	padding-top: 15px;
-	flex:1;
 	height: 50px;
 }
 
-.bordure_droite
+
+
+
+header
 {
-	padding-top: 15px;
-	flex:1;
-	height: 50px;
+  font-size: 90px;
+  height:150px;
 }
 
-.partie
+section
 {
-	margin-left : auto; 
-	margin-right: auto;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid;
-	width: 85%;
-	h2 {width: 550px}
-	
+	margin: 10%;
+	margin-top: 2%;
+}
+
+
+.price
+{
+	text-align: right;
+	padding-right:20px;
+}
+.title
+{
+font-size: 70px;
+padding-top:10%;}
+
+body
+{
+	margin:0px;
+}
+.mentions_contact{
+	font-size: 30px;
 }
 }

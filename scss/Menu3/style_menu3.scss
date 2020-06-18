@@ -1,13 +1,13 @@
 @font-face
 {
 	font-family: 'alexbrush';
-	src: url('font/alexbrush-regular-webfont.woff') format('woff'),
-		url('font/alexbrush-regular-webfont.eot') format('embedded-opentype'),
-		url('font/alexbrush-regular-webfont.svg') format('svg'),
-		url('font/Alexbrush-Regular.ttf') format('truetype');
+	src: url('../../polices/alexbrush-regular-webfont.woff') format('woff'),
+		url('../../polices/alexbrush-regular-webfont.eot') format('embedded-opentype'),
+		url('../../polices/alexbrush-regular-webfont.svg') format('svg'),
+		url('../../polices/alexbrush-regular-webfont.ttf') format('truetype');
 }
 
-.containt
+section
 {
 	font-family: 'alexbrush';
 	background-color: #EDEFEF;
@@ -15,6 +15,7 @@
 
 h1
 {
+	padding-top: 10%;
 	background-image: linear-gradient(left, #072ac8, #72ddf7);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color:transparent;
@@ -43,6 +44,11 @@ h1
 	width: 100%;
 }
 
+h2
+{
+	font-weight: normal;
+}
+
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px)
 {
@@ -51,13 +57,36 @@ h1
 /* Nouvelles règles si la fenêtre fait plus de 992px*/
 @media (min-width: 1200px)
 {
+	h1
+	{
+		font-size: 10rem;
+	}
+	.part
+	{
+		margin-left: 4%;
+		margin-right: 4%;
+		width: 92%;
+		h2 {width: 610px}
+	}
+
 	.group
 {
+	padding-top: 2%;
 	padding-bottom: 90px;
+	margin-left:17%;
+	margin-right: 17%;
+}
+
+.group_dessert
+{
+	padding-top: 2%;
+	margin-left:17%;
+	margin-right: 17%;
 }
 
 .choice_dessert
 {
 	margin-left: 0px;
+	padding-top: 2%;
 }
 }
