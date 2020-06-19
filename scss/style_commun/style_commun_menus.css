@@ -35,7 +35,7 @@ header {
 section {
   -webkit-box-shadow: 1px 1px 6px 1px grey;
           box-shadow: 1px 1px 6px 1px grey;
-  margin: 5% 5% 80px 5%;
+  margin: 5% 5% 100px 5%;
 }
 
 body {
@@ -190,7 +190,7 @@ h1 {
 }
 
 .group_dessert {
-  padding: 0px 0px 200px 0px;
+  padding: 0px 0px 80px 0px;
 }
 
 .part {

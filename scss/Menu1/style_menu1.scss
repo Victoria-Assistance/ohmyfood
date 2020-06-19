@@ -38,9 +38,9 @@ h1{
 
 .final
 {
-	font-size: 30px ;
+	font-size: 25px ;
 	padding-top:0px;
-	padding-bottom: 80px;
+	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
@@ -58,7 +58,7 @@ p{
 	background-clip: text;
 	-webkit-text-fill-color:transparent;
 	padding-right: 15px;
-	padding-top: 40px;
+	padding-top: 30px;
 }
 
 .dish
@@ -86,6 +86,11 @@ font-weight: normal;
 .final, .dessert
 {
 	font-size: 50px ;
+}
+
+.final
+{
+	padding-bottom: 80px;
 }
 
 .note_finale
