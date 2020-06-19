@@ -97,10 +97,7 @@ footer
 
 }
 
-.border
-{
-	padding-top: 60px;
-}
+
 
 h1
 {
@@ -176,11 +173,7 @@ h1
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px)
 {
-.group
-{
-	margin-left: 20%;
-	margin-right: 20%;
-}
+
 
 .price
 {
@@ -192,6 +185,11 @@ h1
 {
 	width: 52%;
 	text-align: justify;
+}
+.part
+{
+	width: 80%;
+	h2 {width: 200px}
 }
 }
 

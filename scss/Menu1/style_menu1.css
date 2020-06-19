@@ -7,7 +7,6 @@
 section {
   font-family: 'bubblegumsans';
   background-color: #FCDFDB;
-  height: 4%;
 }
 
 .part {
@@ -29,8 +28,7 @@ h1 {
 
 .note {
   font-size: 50px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ef233c), to(#ff9b85));
-  background-image: linear-gradient(left, #ef233c, #ff9b85);
+  background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 8px;
@@ -65,8 +63,7 @@ p {
 
 .note_finale {
   font-size: 50px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ef233c), to(#ff9b85));
-  background-image: linear-gradient(left, #ef233c, #ff9b85);
+  background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 15px;
@@ -90,8 +87,7 @@ p {
   font-weight: normal;
 }
 
-/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
-/* Nouvelles règles si la fenêtre fait plus de 992px*/
+/* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px) {
   .part {
     margin-left: 10%;

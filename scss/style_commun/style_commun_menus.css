@@ -107,10 +107,6 @@ footer {
   color: #FDD144;
 }
 
-.border {
-  padding-top: 60px;
-}
-
 h1 {
   text-align: center;
   font-size: 30px;
@@ -228,10 +224,6 @@ h1 {
 
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px) {
-  .group {
-    margin-left: 20%;
-    margin-right: 20%;
-  }
   .price {
     width: 8%;
     text-align: center;
@@ -240,9 +232,15 @@ h1 {
     width: 52%;
     text-align: justify;
   }
+  .part {
+    width: 80%;
+  }
+  .part h2 {
+    width: 200px;
+  }
 }
 
-/* Nouvelles règles si la fenêtre fait plus de 992px*/
+/* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px) {
   .low {
     width: 100%;

@@ -69,7 +69,7 @@ h1 {
   color: #7161ef;
 }
 
-/* Nouvelles règles si la fenêtre fait plus de 992px*/
+/* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px) {
   .part {
     margin-left: 4%;

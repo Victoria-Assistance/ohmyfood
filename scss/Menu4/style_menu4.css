@@ -41,7 +41,6 @@ section {
           justify-content: center;
 }
 
-/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 /* Nouvelles règles si la fenêtre fait plus de 992px*/
 @media (min-width: 1200px) {
   .part {
