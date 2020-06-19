@@ -43,13 +43,6 @@ flex-direction: row;
 justify-content: center;
 }
 
-.suite_group, .entree_group
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
 .entree_group
 {
 	color: #c47335;
@@ -75,18 +68,13 @@ justify-content: center;
 		width: 92%;
 		h2 {width: 610px}
 	}
-.group
+.group, .group_dessert
 {
 	padding-top: 2%;
 	margin-left:17%;
 	margin-right: 17%;
 }
 
-.group_dessert
-{
-	padding-top: 2%;
-	margin-left:17%;
-}
 .price
 {
 	width: 10%;

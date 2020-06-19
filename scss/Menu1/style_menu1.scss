@@ -13,7 +13,7 @@ section
 	background-color: #FCDFDB;
 }
 
-.part
+.part, .menu
 {
 	display: flex;
 	flex-direction: row;
@@ -61,13 +61,6 @@ p{
 	padding-top: 40px;
 }
 
-.menu
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-}
-
 .dish
 {
 font-weight: normal;
@@ -76,14 +69,13 @@ font-weight: normal;
 /* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px)
 {
-	.part
+.part, .group, .dessert
 	{
-		margin-left: 10%;
-		margin-right: 10%;
+		margin: 0% 10% 0% 10%;
 		width: 80%;
 		h2 {width: 610px}
 	}
-	.note
+.note
 {
 	font-size: 80px;
 	padding-top: 50px;
@@ -91,7 +83,7 @@ font-weight: normal;
 }
 
 
-.final
+.final, .dessert
 {
 	font-size: 50px ;
 }
@@ -100,23 +92,10 @@ font-weight: normal;
 {
 	padding-top: 75px;
 }
-
-.menu
+h1
 {
-	display: flex;
-	flex-direction: column;
-}
-
-.dessert
-{
-	font-size: 50px;
-	margin-left: 10%;
-}
-
-.group
-{
-	margin-left:10%;
-	margin-right: 10%;
+	padding-top: 40px;
+	font-size: 70px;
 }
 }
 

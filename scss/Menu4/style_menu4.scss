@@ -22,19 +22,13 @@ font-family: 'journal';
 
 
 
-.entree_group
+.entree_group, .suite_group
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.suite_group
-{
-	display: flex;
-	flex-direction: row;
-	justify-content: center;	
-}
 
 /* Nouvelles règles si la fenêtre fait plus de 992px*/
 @media (min-width: 1200px)

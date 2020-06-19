@@ -9,7 +9,7 @@ section {
   background-color: #FCDFDB;
 }
 
-.part {
+.part, .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30,6 +30,7 @@ h1 {
   font-size: 50px;
   background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 8px;
   display: -webkit-box;
@@ -65,22 +66,10 @@ p {
   font-size: 50px;
   background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-right: 15px;
   padding-top: 40px;
-}
-
-.menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .dish {
@@ -89,12 +78,11 @@ p {
 
 /* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px) {
-  .part {
-    margin-left: 10%;
-    margin-right: 10%;
+  .part, .group, .dessert {
+    margin: 0% 10% 0% 10%;
     width: 80%;
   }
-  .part h2 {
+  .part h2, .group h2, .dessert h2 {
     width: 610px;
   }
   .note {
@@ -102,28 +90,15 @@ p {
     padding-top: 50px;
     padding-right: 20px;
   }
-  .final {
+  .final, .dessert {
     font-size: 50px;
   }
   .note_finale {
     padding-top: 75px;
   }
-  .menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .dessert {
-    font-size: 50px;
-    margin-left: 10%;
-  }
-  .group {
-    margin-left: 10%;
-    margin-right: 10%;
+  h1 {
+    padding-top: 40px;
+    font-size: 70px;
   }
 }
 /*# sourceMappingURL=style_menu1.css.map */

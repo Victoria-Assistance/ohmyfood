@@ -13,6 +13,7 @@ h1 {
   padding-top: 10%;
   background-image: -webkit-linear-gradient(left, #cd7c50, #945ef0);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -44,19 +45,6 @@ h1 {
           justify-content: center;
 }
 
-.suite_group, .entree_group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .entree_group {
   color: #c47335;
 }
@@ -79,14 +67,10 @@ h1 {
   .part h2 {
     width: 610px;
   }
-  .group {
+  .group, .group_dessert {
     padding-top: 2%;
     margin-left: 17%;
     margin-right: 17%;
-  }
-  .group_dessert {
-    padding-top: 2%;
-    margin-left: 17%;
   }
   .price {
     width: 10%;
