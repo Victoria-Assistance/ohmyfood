@@ -28,6 +28,7 @@ h1{
 	font-size: 50px;
 	background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color:transparent;
 	padding-right: 8px;
 	display: flex;
@@ -54,6 +55,7 @@ p{
 	font-size: 50px;
 	background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
 	-webkit-background-clip: text;
+	background-clip: text;
 	-webkit-text-fill-color:transparent;
 	padding-right: 15px;
 	padding-top: 40px;

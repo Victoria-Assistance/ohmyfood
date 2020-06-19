@@ -54,6 +54,7 @@ section {
   font-size: 40px;
   background: -webkit-linear-gradient(left, #ef233c, #ff9b85);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -122,6 +123,7 @@ font-family: 'greatvibes';
  .proj-prev_heading2 {
   background-image: -webkit-linear-gradient(left, #c47335, #7161ef);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'greatvibes';
     +.proj-prev_byline2 {
@@ -134,6 +136,7 @@ font-family: 'greatvibes';
 .proj-prev_heading3 {
 background-image: -webkit-linear-gradient(left, #072ac8, #72ddf7);
 -webkit-background-clip: text;
+background-clip: text;
 -webkit-text-fill-color: transparent;
 font-family: 'alexbrush';
   +.proj-prev_byline3 {
@@ -145,6 +148,7 @@ font-family: 'alexbrush';
 .proj-prev_heading4 {
 background-image: -webkit-linear-gradient(left, #1a4301, #72b01d, #d0ffb7);
 -webkit-background-clip: text;
+background-clip: text;
 -webkit-text-fill-color: transparent;
 font-family: 'journal';
   +.proj-prev_byline4 {
