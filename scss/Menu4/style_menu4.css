@@ -8,6 +8,7 @@ h1 {
   padding-top: 10%;
   background-image: -webkit-linear-gradient(left, #1a4301, #72b01d, #d0ffb7);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -15,7 +16,7 @@ section {
   font-family: 'journal';
 }
 
-.entree_group {
+.entree_group, .suite_group {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,20 +29,7 @@ section {
           justify-content: center;
 }
 
-.suite_group {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-/* Nouvelles règles si la fenêtre fait plus de 992px*/
+/* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px) {
   .part {
     margin-left: 4%;

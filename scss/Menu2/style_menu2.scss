@@ -31,7 +31,6 @@ h1
 	color : #c47335;
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 }
 
 .suite
@@ -40,7 +39,6 @@ h1
 color : #a545b8;
 display: flex;
 flex-direction: row;
-justify-content: center;
 }
 
 .entree_group
@@ -58,6 +56,31 @@ justify-content: center;
 	color: #7161ef;
 }
 
+/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+@media (min-width: 768px) and (max-width: 1200px)
+{
+	.entree_group, .suite_group
+{
+	margin-left: 4%;
+	margin-right: 4%;
+	padding-left: 0px;
+}
+
+.choice
+{
+	display: flex;
+	justify-content: justify;
+	width: 100%;
+}
+.dish
+{
+	margin-left:0px;
+}
+	.group_dessert
+{
+	margin-left: 12%;
+}
+}		
 /* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px)
 {

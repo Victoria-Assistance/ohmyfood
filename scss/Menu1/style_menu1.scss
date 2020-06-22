@@ -66,6 +66,15 @@ p{
 font-weight: normal;
 }
 
+/* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
+@media (min-width: 768px) and (max-width: 1200px)
+{
+.dessert
+{
+	margin-left: 10%;
+}
+}
+
 /* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px)
 {
