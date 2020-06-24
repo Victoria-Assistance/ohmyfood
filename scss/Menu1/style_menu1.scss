@@ -20,6 +20,19 @@ section
 	justify-content: center;
 }
 
+.subtitle
+{
+	text-decoration: none;
+	background : linear-gradient(to top, black 0%, black 2px, transparent 2px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size 300ms;
+}
+
+.subtitle:hover
+{
+	background-size: 100% 100%;
+}
+
 h1{
 	font-size: 26px;
 }
