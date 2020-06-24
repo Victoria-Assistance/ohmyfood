@@ -89,8 +89,8 @@ section {
             transform: scale(1);
   }
   to {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     opacity: 1;
   }
 }
@@ -102,15 +102,17 @@ section {
             transform: scale(1);
   }
   to {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
     opacity: 1;
   }
 }
 
 .proj-prev:hover * {
-  -webkit-animation: zoom 1s infinite;
-          animation: zoom 1s infinite;
+  -webkit-animation: zoom 1s;
+          animation: zoom 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 .proj-prev {
@@ -337,9 +339,11 @@ footer {
   }
 }
 
-.mentions_contact {
-  -webkit-animation: wiggle 500ms infinite;
-          animation: wiggle 500ms infinite;
+.mentions_contact:hover {
+  -webkit-animation: wiggle 500ms;
+          animation: wiggle 500ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes wiggle {

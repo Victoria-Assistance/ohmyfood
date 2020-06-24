@@ -56,6 +56,46 @@ h2
 	margin-right: 4%;
 }
 
+.subtitle_entree
+{
+	text-decoration: none;
+	background : linear-gradient(to top, #072ac8 0%, #072ac8 2px, transparent 2px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size 300ms;
+}
+
+.subtitle_entree:hover
+{
+	background-size: 100% 100%;
+}
+
+.subtitle_suite
+{
+	text-decoration: none;
+	background : linear-gradient(to top, #0670f3 0%, #0670f3 2px, transparent 2px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size 300ms;
+}
+
+.subtitle_suite:hover
+{
+	background-size: 100% 100%;
+}
+
+.subtitle_dessert
+{
+	text-decoration: none;
+	background : linear-gradient(to top, #229df9 0%, #229df9 2px, transparent 2px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size 300ms;
+}
+
+.subtitle_dessert:hover
+{
+	background-size: 100% 100%;
+}
+
+
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px)
 {
@@ -68,7 +108,8 @@ h2
 {
 h1
 	{
-		font-size: 10rem;
+		font-size: 8rem;
+		margin-bottom: 0px;
 	}
 .part
 	{
@@ -83,15 +124,15 @@ h1
 	{
 		padding-top: 2%;
 		padding-bottom: 90px;
-		margin-left:17%;
-		margin-right: 17%;
+		margin-left:12%;
+		margin-right: 9%;
 	}
 
 .group_dessert
 	{
 		padding-top: 2%;
-		margin-left:17%;
-		margin-right: 17%;
+		margin-left:12%;
+		margin-right: 9%;
 	}
 
 .choice_dessert

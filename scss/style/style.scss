@@ -65,13 +65,14 @@ section {
   }
 
   to {
-    transform: scale(1.1);
+    transform: scale(1.05);
     opacity: 1;
   }
 }
 
 .proj-prev:hover * {
-  animation: zoom 1s infinite;
+  animation: zoom 1s;
+  animation-fill-mode: forwards;
 }
 
 
@@ -249,9 +250,10 @@ footer {
     transform: translate(0px,-5px) }
 }
 
-.mentions_contact
+.mentions_contact:hover
 {
-  animation: wiggle 500ms infinite;
+  animation: wiggle 500ms;
+  animation-fill-mode: forwards;
 }
 
 @keyframes wiggle {

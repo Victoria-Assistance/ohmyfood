@@ -28,6 +28,18 @@ h1 {
           flex-direction: row;
 }
 
+.subtitle_entree {
+  text-decoration: none;
+  background: linear-gradient(to top, #c47335 0%, #c47335 2px, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+
+.subtitle_entree:hover {
+  background-size: 100% 100%;
+}
+
 .suite {
   color: #a545b8;
   display: -webkit-box;
@@ -37,6 +49,18 @@ h1 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+}
+
+.subtitle_suite {
+  text-decoration: none;
+  background: linear-gradient(to top, #a545b8 0%, #a545b8 2px, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+
+.subtitle_suite:hover {
+  background-size: 100% 100%;
 }
 
 .entree_group {
@@ -49,6 +73,18 @@ h1 {
 
 .group_dessert, .dessert {
   color: #7161ef;
+}
+
+.subtitle_dessert {
+  text-decoration: none;
+  background: linear-gradient(to top, #7161ef 0%, #7161ef 2px, transparent 2px) no-repeat;
+  background-size: 0 100%;
+  -webkit-transition: background-size 300ms;
+  transition: background-size 300ms;
+}
+
+.subtitle_dessert:hover {
+  background-size: 100% 100%;
 }
 
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
@@ -87,11 +123,14 @@ h1 {
   }
   .group, .group_dessert {
     padding-top: 2%;
-    margin-left: 17%;
-    margin-right: 17%;
+    margin-left: 12%;
+    margin-right: 12%;
   }
   .price {
-    width: 10%;
+    width: 20%;
+  }
+  .dish {
+    width: 80%;
   }
 }
 /*# sourceMappingURL=style_menu2.css.map */

@@ -15,6 +15,19 @@ background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
+.subtitle
+{
+	text-decoration: none;
+	background : linear-gradient(to top, #1a4301 0%, #1a4301 2px, transparent 2px) no-repeat;
+	background-size: 0 100%;
+	transition: background-size 300ms;
+}
+
+.subtitle:hover
+{
+	background-size: 100% 100%;
+}
+
 section
 {
 font-family: 'journal';

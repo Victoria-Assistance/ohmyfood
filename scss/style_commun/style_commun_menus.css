@@ -49,15 +49,6 @@ a {
 h2 {
   font-size: 20px;
   text-align: center;
-  text-decoration: none;
-  background: linear-gradient(to top, black 0%, black 4px, transparent 5px) no-repeat;
-  background-size: 0 100%;
-  -webkit-transition: background-size 300ms;
-  transition: background-size 300ms;
-}
-
-h2:hover {
-  background-size: 100% 100%;
 }
 
 .menu {
@@ -135,12 +126,14 @@ h1 {
 .dish {
   margin-right: 20px;
   margin-left: 20px;
-  width: 80%;
+  width: 82%;
 }
 
-.mentions_contact {
-  -webkit-animation: wiggle 500ms infinite;
-          animation: wiggle 500ms infinite;
+.mentions_contact:hover {
+  -webkit-animation: wiggle 500ms;
+          animation: wiggle 500ms;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 
 @-webkit-keyframes wiggle {
@@ -230,12 +223,6 @@ h1 {
     width: 52%;
     text-align: justify;
   }
-  .part {
-    width: 80%;
-  }
-  .part h2 {
-    width: 200px;
-  }
 }
 
 /* Nouvelles règles si la fenêtre fait plus de 1200px*/
@@ -267,7 +254,7 @@ h1 {
     font-size: 50px;
   }
   .border {
-    height: 50px;
+    height: 30px;
   }
   header {
     font-size: 90px;
