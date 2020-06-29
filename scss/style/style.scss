@@ -58,6 +58,11 @@ section {
   -webkit-text-fill-color: transparent;
 }
 
+.proj-prev:hover * {
+  animation: zoom 1s;
+  animation-fill-mode: forwards;
+  }
+
 @keyframes zoom {
   from {
     opacity: 0.7;
@@ -69,12 +74,6 @@ section {
     opacity: 1;
   }
 }
-
-.proj-prev:hover * {
-  animation: zoom 1s;
-  animation-fill-mode: forwards;
-}
-
 
 .proj-prev {
   display: flex; 
