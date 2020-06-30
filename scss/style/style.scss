@@ -202,19 +202,19 @@ footer {
   width : 100%;
 }
 
-.fa_circle_1
-{
-  font-size: 16px;
-  padding-left: 10px;
-  animation: suspension 700ms infinite;
-}
-
 @keyframes suspension {
 	0% {
     transform: translate(0px,5px)}
 
 	100%{
     transform: translate(0px,-5px) }
+}
+
+.fa_circle_1
+{
+  font-size: 16px;
+  padding-left: 10px;
+  animation: suspension 700ms infinite;
 }
 
 .fa_circle_2
@@ -225,14 +225,6 @@ footer {
   animation-delay: 750ms;
 }
 
-@keyframes suspension {
-	0% {
-    transform: translate(0px,5px)}
-
-	100%{
-    transform: translate(0px,-5px) }
-}
-
 .fa_circle_3
 {
   font-size: 16px;
@@ -241,13 +233,6 @@ footer {
   animation-delay: 800ms;
 }
 
-@keyframes suspension {
-	0% {
-    transform: translate(0px,5px)}
-
-	100%{
-    transform: translate(0px,-5px) }
-}
 
 .mentions_contact:hover
 {
