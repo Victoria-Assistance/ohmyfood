@@ -11,8 +11,7 @@ section {
 
 h1 {
   padding-top: 10%;
-  background-clip: linear-gradient(left, #cd7c50, #945ef0);
-  linear-gradient: text;
+  background-image: -webkit-linear-gradient(left, #cd7c50, #945ef0);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -131,6 +130,9 @@ h1 {
   }
   .dish {
     width: 80%;
+  }
+  h1 {
+    font-size: 8rem;
   }
 }
 /*# sourceMappingURL=style_menu2.css.map */
