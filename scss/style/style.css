@@ -48,7 +48,6 @@ header {
       -ms-flex-pack: center;
           justify-content: center;
   border-bottom: 1px green solid;
-  font-size: 30px;
   font-weight: bold;
   width: 100%;
 }
@@ -73,7 +72,7 @@ h1 {
       -ms-flex-pack: center;
           justify-content: center;
   margin: 0px;
-  font-size: 16px;
+  font-size: 30px;
 }
 
 article {
@@ -436,7 +435,7 @@ footer {
   }
 }
 
-/* Nouvelles règles si la fenêtre fait plus de 992px*/
+/* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px) {
   .group_menu {
     display: -webkit-box;
@@ -474,7 +473,6 @@ footer {
     font-size: 80px;
   }
   header {
-    font-size: 70px;
     height: 150px;
     width: 100%;
   }
