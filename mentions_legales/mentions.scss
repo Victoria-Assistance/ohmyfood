@@ -45,6 +45,7 @@ section
 	padding-bottom:50px;
 	padding-top: 15px;
 }
+
 footer
 {
 	display: flex;
@@ -116,32 +117,32 @@ p
 @media (min-width: 1200px)
 {
 h1
-	{
-		font-size: 70px;
-	}
-h2
-	{
-        padding-top:50px;
-        font-size: 50px;
-	}
-    .frame_header
-	{
-		font-size: 90px;
-        height:150px;
-        width:100%;
-    text-align: center;
-    }
-
-
+{
+	font-size: 70px;
+}
 
 h2
-	{
-		font-size: 50px;
-    }
-    body
-	{
-		margin:0px;
-	}
+{
+    padding-top:50px;
+    font-size: 50px;
+}
+.frame_header
+{
+	font-size: 90px;
+    width:100%;
+	text-align: center;
+	height: 150px;
+}
+
+header
+{
+	height: 150px;
+}
+	
+body
+{
+	margin:0px;
+}
 .contact
 {
 	font-size: 30px;
