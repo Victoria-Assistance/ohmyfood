@@ -36,6 +36,21 @@ header {
   width: 100%;
 }
 
+.frame_header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1
+{
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  font-size: 16px;
+}
+
 
 body
 {
@@ -52,8 +67,7 @@ section {
 
 .fa-music {
   font-size: 40px;
-  background: -webkit-linear-gradient(left, #ef233c, #ff9b85);
-  -webkit-background-clip: text;
+  background-image: linear-gradient(left, #ef233c, #ff9b85);
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -161,7 +175,9 @@ font-family: 'journal';
   background-color: #579c87;
   color: #FDD144;
   width:100%;
+  height: 100%;
 }
+
 
 .link
 {
@@ -328,7 +344,13 @@ footer {
   .fa-music {
     font-size: 90px;
   }
-  .mentions_contact{
+.mentions_contact 
+  {
+	font-size: 30px;
+}
+
+h1
+{
 	font-size: 30px;
 }
 
