@@ -94,52 +94,51 @@ flex-direction: row;
 @media (min-width: 768px) and (max-width: 1200px)
 {
 	.entree_group, .suite_group
-{
-	margin-left: 4%;
-	margin-right: 4%;
-	padding-left: 0px;
-}
+	{
+		margin-left: 4%;
+		margin-right: 4%;
+		padding-left: 0px;
+	}
 
-.choice
-{
-	display: flex;
-	justify-content: justify;
-	width: 100%;
-}
-.dish
-{
-	margin-left:0px;
-}
-	.group_dessert
-{
-	margin-left: 12%;
-}
+	.choice
+	{
+		display: flex;
+		justify-content: justify;
+		width: 100%;
+	}
+	.dish
+	{
+		margin-left:0px;
+	}
+		.group_dessert
+	{
+		margin-left: 12%;
+	}
 }		
 /* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px)
 {
-.part
+	.part
+		{
+			margin-left: 4%;
+			margin-right: 4%;
+			width: 92%;
+			h2 {width: 610px}
+		}
+	.group, .group_dessert
 	{
-		margin-left: 4%;
-		margin-right: 4%;
-		width: 92%;
-		h2 {width: 610px}
+		padding-top: 2%;
+		margin-left: 12%;
+		margin-right: 12%;
 	}
-.group, .group_dessert
-{
-	padding-top: 2%;
-	margin-left: 12%;
-	margin-right: 12%;
-}
 
-.price
-{
-	width: 20%;
-}
+	.price
+	{
+		width: 20%;
+	}
 
-.dish
-{
-	width: 80%;
-}
-
+	.dish
+	{
+		width: 80%;
+	}
 }

@@ -33,9 +33,11 @@ section
 	background-size: 100% 100%;
 }
 
-h1{
+h1
+{
 	font-size: 26px;
 }
+
 .note
 {
 	font-size: 50px;
@@ -59,7 +61,8 @@ h1{
 	justify-content: center;
 }
 
-p{
+p
+{
 	padding-top: 20px;
 }
 
@@ -82,47 +85,48 @@ font-weight: normal;
 /* Nouvelles règles si la fenêtre fait entre 768px et 1200px*/
 @media (min-width: 768px) and (max-width: 1200px)
 {
-.dessert
-{
-	margin-left: 10%;
-}
+	.dessert
+	{
+		margin-left: 10%;
+	}
 }
 
 /* Nouvelles règles si la fenêtre fait plus de 1200px*/
 @media (min-width: 1200px)
 {
-.part, .group, .dessert
+	.part, .group, .dessert
+		{
+			margin: 0% 10% 0% 10%;
+			width: 80%;
+			h2 {width: 610px}
+		}
+
+	.note
 	{
-		margin: 0% 10% 0% 10%;
-		width: 80%;
-		h2 {width: 610px}
+		font-size: 80px;
+		padding-top: 50px;
+		padding-right: 20px;
 	}
-.note
-{
-	font-size: 80px;
-	padding-top: 50px;
-	padding-right: 20px;
-}
 
+	.final, .dessert
+	{
+		font-size: 50px ;
+	}
 
-.final, .dessert
-{
-	font-size: 50px ;
-}
+	.final
+	{
+		padding-bottom: 80px;
+	}
 
-.final
-{
-	padding-bottom: 80px;
-}
-
-.note_finale
-{
-	padding-top: 75px;
-}
-h1
-{
-	padding-top: 40px;
-	font-size: 70px;
-}
+	.note_finale
+	{
+		padding-top: 75px;
+	}
+	
+	h1
+	{
+		padding-top: 40px;
+		font-size: 70px;
+	}
 }
 

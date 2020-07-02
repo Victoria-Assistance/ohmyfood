@@ -9,10 +9,10 @@
 h1
 {
 	padding-top: 10%;
-background-image: -webkit-linear-gradient(left, #1a4301, #72b01d, #d0ffb7);
--webkit-background-clip: text;
-background-clip: text;
--webkit-text-fill-color: transparent;
+	background-image: -webkit-linear-gradient(left, #1a4301, #72b01d, #d0ffb7);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .subtitle
@@ -30,10 +30,8 @@ background-clip: text;
 
 section
 {
-font-family: 'journal';
+	font-family: 'journal';
 }
-
-
 
 .entree_group, .suite_group
 {
@@ -63,9 +61,9 @@ font-family: 'journal';
 	}
 
 	.group_dessert
-{
-	padding-top: 2%;
-	margin-left:17%;
-	margin-right: 17%;
-}
+	{
+		padding-top: 2%;
+		margin-left:17%;
+		margin-right: 17%;
+	}
 }
