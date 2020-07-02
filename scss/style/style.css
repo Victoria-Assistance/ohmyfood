@@ -76,6 +76,16 @@ h1 {
   font-size: 16px;
 }
 
+article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 body {
   margin: 0px;
 }
@@ -99,9 +109,9 @@ section {
 
 .fa-music {
   font-size: 40px;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ef233c), to(#ff9b85));
-  background-image: linear-gradient(left, #ef233c, #ff9b85);
+  background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -475,7 +485,7 @@ footer {
     font-size: 30px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 70px;
   }
   .btn {
     font-size: 30px;

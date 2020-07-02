@@ -7,21 +7,17 @@
 		url('../../polices/greatvibes-regular-webfont.ttf') format('truetype');
 }
 
-
-
 section
 {
 	font-family: 'greatvibes';
 	background-color: #FFF5FE;
 }
 
-
-
 h1
 {
 	padding-top: 10%;
-	background-image: -webkit-linear-gradient(left,#cd7c50, #945ef0);
-	-webkit-background-clip: text;
+	background-clip: linear-gradient(left,#cd7c50, #945ef0);
+	linear-gradient: text;
 	background-clip: text;
 	-webkit-text-fill-color:transparent;
 }
@@ -47,7 +43,6 @@ transition: background-size 300ms;
 }
 
 .suite
-
 {
 color : #a545b8;
 display: flex;

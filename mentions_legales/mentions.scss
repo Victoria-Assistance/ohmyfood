@@ -1,12 +1,85 @@
-h1
+#conteneur
 {
-    display: flex;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
-h2{
+$color_text_header_footer: #FDD144;
+
+a {
+	text-decoration: none;
+  }
+
+header
+{
+	display: flex;
+	height: 70px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid green;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+section
+{
+	box-shadow: 1px 1px 6px 1px grey;
+    margin: 5% 5% 100px 5%;
+    padding-bottom:50px;
+}
+footer
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-top: 1px solid green;
+	font-size:18px;
+	height: 70px;
+}
+.low
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+}
+
+.frame
+{
+	background-color: #579c87;
+	color: $color_text_header_footer;
+}
+
+body
+{
+	margin: 0px;
+}
+h2
+{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 10px;
+}
+
+.contact:hover
+{
+	animation: wiggle 500ms;
+	animation-fill-mode: forwards;
+}
+
+@keyframes wiggle {
+ 
+    0% {transform: translate(-5px,-5px)}
+    25% {transform: translate(-5px,5px)}
+    40% {transform: translate(5px,5px)}
+    70% {transform: translate(-5px,-5px)}
+    100% {transform: translate(5px,-5px)}
+  }
+
+
+h3{
     padding-top: 20px;
 }
 
@@ -15,8 +88,51 @@ p
     font-size: 18px;
 }
 
-.containt
+.link
 {
-    margin:30px;
-}
+	color:$color_text_header_footer;
 
+}
+/* Nouvelles règles si la fenêtre fait plus de 1200px*/
+@media (min-width: 1200px)
+{
+h1
+	{
+		font-size: 70px;
+	}
+h2
+	{
+        padding-top:50px;
+        font-size: 50px;
+	}
+    .frame_header
+	{
+		font-size: 90px;
+        height:150px;
+        width:100%;
+    text-align: center;
+    }
+
+h3
+{
+    padding: 15px;
+}
+p
+{
+    padding-left:30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+h2
+	{
+		font-size: 50px;
+    }
+    body
+	{
+		margin:0px;
+	}
+.contact
+{
+	font-size: 30px;
+}
+}

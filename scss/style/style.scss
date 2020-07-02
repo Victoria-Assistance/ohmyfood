@@ -51,7 +51,11 @@ h1
   font-size: 16px;
 }
 
-
+article
+{
+  display: flex;
+  flex-direction: column;
+}
 body
 {
   margin:0px;
@@ -67,8 +71,9 @@ section {
 
 .fa-music {
   font-size: 40px;
-  background-image: linear-gradient(left, #ef233c, #ff9b85);
+  background-image: -webkit-linear-gradient(left, #ef233c, #ff9b85);
   background-clip: text;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -132,7 +137,7 @@ a {
 }
 
 .proj-prev--pink {
-background-color: #FFF5FE;
+  background-color: #FFF5FE;
 font-family: 'greatvibes';
  .proj-prev_heading2 {
   background-image: -webkit-linear-gradient(left, #c47335, #7161ef);
@@ -283,6 +288,7 @@ footer {
   }
 
   .proj-prev {
+
     margin: 50px;
     width: 300px;
     height: 300px;
@@ -351,7 +357,7 @@ footer {
 
 h1
 {
-	font-size: 30px;
+	font-size: 70px;
 }
 
 .btn
