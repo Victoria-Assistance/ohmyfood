@@ -94,12 +94,6 @@ h1 {
     padding-left: 0px;
   }
   .choice {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: justify;
     width: 100%;
   }
   .dish {
