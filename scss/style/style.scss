@@ -24,6 +24,8 @@
   src: url("../../polices/journal-webfont.woff") format("woff"), url("../../polices/journal-webfont.eot") format("embedded-opentype"), url("../../polices/journal-webfont.svg") format("svg"), url("../../polices/journal-webfont.ttf") format("truetype");
 }
 
+$color_text_header_footer: #FDD144;
+
 header 
 {
   display: flex;
@@ -184,14 +186,14 @@ font-family: 'journal';
 
 .frame {
   background-color: #579c87;
-  color: #FDD144;
+  color: $color_text_header_footer;
   width:100%;
   height: 100%;
 }
 
 .link
 {
-  color: #FDD144;
+  color: $color_text_header_footer;
 }
 
 .btn 
@@ -228,7 +230,7 @@ footer
 {
   position: fixed;
   bottom: 0px;
-  color: #FDD144;
+  color: $items;
   width : 100%;
 }
 
